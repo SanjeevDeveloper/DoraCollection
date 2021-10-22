@@ -1,0 +1,6 @@
+framework module Pods_DoraCollection_DoraCollectionUITests {
+  umbrella header "Pods-DoraCollection-DoraCollectionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

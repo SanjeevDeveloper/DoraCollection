@@ -6,6 +6,8 @@ target 'DoraCollection' do
   use_frameworks!
 
   # Pods for DoraCollection
+  pod 'Alamofire', '~> 5.4'
+  pod 'MBProgressHUD', '~> 1.2.0'
 
   target 'DoraCollectionTests' do
     inherit! :search_paths

@@ -3,18 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		316151936915A0BDB543E675 /* Pods_DoraCollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEBCF29A562F374C031986C /* Pods_DoraCollectionTests.framework */; };
 		45C9DD712721637200D795FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DD702721637200D795FF /* AppDelegate.swift */; };
 		45C9DD732721637200D795FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DD722721637200D795FF /* SceneDelegate.swift */; };
-		45C9DD752721637200D795FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DD742721637200D795FF /* ViewController.swift */; };
 		45C9DD782721637200D795FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C9DD762721637200D795FF /* Main.storyboard */; };
 		45C9DD7A2721637700D795FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C9DD792721637700D795FF /* Assets.xcassets */; };
 		45C9DD7D2721637700D795FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C9DD7B2721637700D795FF /* LaunchScreen.storyboard */; };
 		45C9DD882721637800D795FF /* DoraCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DD872721637800D795FF /* DoraCollectionTests.swift */; };
 		45C9DD932721637800D795FF /* DoraCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DD922721637800D795FF /* DoraCollectionUITests.swift */; };
+		45C9DDB8272173E100D795FF /* DoraCollectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DDB7272173E100D795FF /* DoraCollectionListViewController.swift */; };
+		45C9DDBD272173FB00D795FF /* DoraDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DDBC272173FB00D795FF /* DoraDetailsViewController.swift */; };
+		45C9DDC22721746900D795FF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DDC12721746900D795FF /* Constant.swift */; };
+		45C9DDC7272177BE00D795FF /* APISniper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DDC6272177BE00D795FF /* APISniper.swift */; };
+		45C9DDCC2721785D00D795FF /* DoraCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DDCB2721785D00D795FF /* DoraCollectionModel.swift */; };
+		45C9DDD127217B3000D795FF /* DoraCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DDD027217B3000D795FF /* DoraCollectionViewModel.swift */; };
+		45C9DDE02721D10300D795FF /* DoraCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DDDE2721D10300D795FF /* DoraCollectionTableViewCell.swift */; };
+		45C9DDE12721D10300D795FF /* DoraCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C9DDDF2721D10300D795FF /* DoraCollectionTableViewCell.xib */; };
+		45C9DDE82721D83800D795FF /* DoraImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DDE62721D83800D795FF /* DoraImageTableViewCell.swift */; };
+		45C9DDE92721D83800D795FF /* DoraImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C9DDE72721D83800D795FF /* DoraImageTableViewCell.xib */; };
+		45C9DDF22721D85000D795FF /* DoraDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DDF02721D85000D795FF /* DoraDetailsTableViewCell.swift */; };
+		45C9DDF32721D85000D795FF /* DoraDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C9DDF12721D85000D795FF /* DoraDetailsTableViewCell.xib */; };
+		45C9DDF82721DCB100D795FF /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DDF72721DCB100D795FF /* UITableView+Extension.swift */; };
+		6E28DDD4522D13DE5C4BC34F /* Pods_DoraCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6CC9AE58A1216939FB6E25 /* Pods_DoraCollection.framework */; };
+		9143514177450180BA9EA25A /* Pods_DoraCollection_DoraCollectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D0B007F9C63E08DA7774A2 /* Pods_DoraCollection_DoraCollectionUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E41E524C079175196ED770F /* Pods-DoraCollectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraCollectionTests.release.xcconfig"; path = "Target Support Files/Pods-DoraCollectionTests/Pods-DoraCollectionTests.release.xcconfig"; sourceTree = "<group>"; };
+		27E54665F3D7145ECC9C10B2 /* Pods-DoraCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraCollection.debug.xcconfig"; path = "Target Support Files/Pods-DoraCollection/Pods-DoraCollection.debug.xcconfig"; sourceTree = "<group>"; };
+		2EEBCF29A562F374C031986C /* Pods_DoraCollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoraCollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C9DD6D2721637200D795FF /* DoraCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoraCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C9DD702721637200D795FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C9DD722721637200D795FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		45C9DD742721637200D795FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45C9DD772721637200D795FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45C9DD792721637700D795FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45C9DD7C2721637700D795FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,25 @@
 		45C9DD8E2721637800D795FF /* DoraCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoraCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C9DD922721637800D795FF /* DoraCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoraCollectionUITests.swift; sourceTree = "<group>"; };
 		45C9DD942721637800D795FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C9DDB7272173E100D795FF /* DoraCollectionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoraCollectionListViewController.swift; sourceTree = "<group>"; };
+		45C9DDBC272173FB00D795FF /* DoraDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoraDetailsViewController.swift; sourceTree = "<group>"; };
+		45C9DDC12721746900D795FF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		45C9DDC6272177BE00D795FF /* APISniper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISniper.swift; sourceTree = "<group>"; };
+		45C9DDCB2721785D00D795FF /* DoraCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoraCollectionModel.swift; sourceTree = "<group>"; };
+		45C9DDD027217B3000D795FF /* DoraCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoraCollectionViewModel.swift; sourceTree = "<group>"; };
+		45C9DDDE2721D10300D795FF /* DoraCollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoraCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		45C9DDDF2721D10300D795FF /* DoraCollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoraCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		45C9DDE62721D83800D795FF /* DoraImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoraImageTableViewCell.swift; sourceTree = "<group>"; };
+		45C9DDE72721D83800D795FF /* DoraImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoraImageTableViewCell.xib; sourceTree = "<group>"; };
+		45C9DDF02721D85000D795FF /* DoraDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoraDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		45C9DDF12721D85000D795FF /* DoraDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoraDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		45C9DDF72721DCB100D795FF /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		46DADF9C6E321A50D4EEE62B /* Pods-DoraCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraCollection.release.xcconfig"; path = "Target Support Files/Pods-DoraCollection/Pods-DoraCollection.release.xcconfig"; sourceTree = "<group>"; };
+		7990A0EC80A70E852469F35D /* Pods-DoraCollection-DoraCollectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraCollection-DoraCollectionUITests.release.xcconfig"; path = "Target Support Files/Pods-DoraCollection-DoraCollectionUITests/Pods-DoraCollection-DoraCollectionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94D0B007F9C63E08DA7774A2 /* Pods_DoraCollection_DoraCollectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoraCollection_DoraCollectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6CC9AE58A1216939FB6E25 /* Pods_DoraCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoraCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD32DDA328B1EA78578A45B /* Pods-DoraCollectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraCollectionTests.debug.xcconfig"; path = "Target Support Files/Pods-DoraCollectionTests/Pods-DoraCollectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6D11F89711D9517E383CEB /* Pods-DoraCollection-DoraCollectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraCollection-DoraCollectionUITests.debug.xcconfig"; path = "Target Support Files/Pods-DoraCollection-DoraCollectionUITests/Pods-DoraCollection-DoraCollectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E28DDD4522D13DE5C4BC34F /* Pods_DoraCollection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316151936915A0BDB543E675 /* Pods_DoraCollectionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9143514177450180BA9EA25A /* Pods_DoraCollection_DoraCollectionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E197E03B9D50F400CC014D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D6CC9AE58A1216939FB6E25 /* Pods_DoraCollection.framework */,
+				94D0B007F9C63E08DA7774A2 /* Pods_DoraCollection_DoraCollectionUITests.framework */,
+				2EEBCF29A562F374C031986C /* Pods_DoraCollectionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		373F64E3539507E2B0CF5180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27E54665F3D7145ECC9C10B2 /* Pods-DoraCollection.debug.xcconfig */,
+				46DADF9C6E321A50D4EEE62B /* Pods-DoraCollection.release.xcconfig */,
+				BE6D11F89711D9517E383CEB /* Pods-DoraCollection-DoraCollectionUITests.debug.xcconfig */,
+				7990A0EC80A70E852469F35D /* Pods-DoraCollection-DoraCollectionUITests.release.xcconfig */,
+				BDD32DDA328B1EA78578A45B /* Pods-DoraCollectionTests.debug.xcconfig */,
+				1E41E524C079175196ED770F /* Pods-DoraCollectionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		45C9DD642721637100D795FF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				45C9DD862721637800D795FF /* DoraCollectionTests */,
 				45C9DD912721637800D795FF /* DoraCollectionUITests */,
 				45C9DD6E2721637200D795FF /* Products */,
+				373F64E3539507E2B0CF5180 /* Pods */,
+				1E197E03B9D50F400CC014D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +165,9 @@
 			children = (
 				45C9DD702721637200D795FF /* AppDelegate.swift */,
 				45C9DD722721637200D795FF /* SceneDelegate.swift */,
-				45C9DD742721637200D795FF /* ViewController.swift */,
+				45C9DDB3272173A800D795FF /* Utility */,
+				45C9DDAB2721739600D795FF /* DoraCollectionList */,
+				45C9DDAF272173A000D795FF /* DoraDetails */,
 				45C9DD762721637200D795FF /* Main.storyboard */,
 				45C9DD792721637700D795FF /* Assets.xcassets */,
 				45C9DD7B2721637700D795FF /* LaunchScreen.storyboard */,
@@ -128,6 +194,104 @@
 			path = DoraCollectionUITests;
 			sourceTree = "<group>";
 		};
+		45C9DDAB2721739600D795FF /* DoraCollectionList */ = {
+			isa = PBXGroup;
+			children = (
+				45C9DDAC2721739600D795FF /* ViewModel */,
+				45C9DDAD2721739600D795FF /* Model */,
+				45C9DDAE2721739600D795FF /* View */,
+			);
+			path = DoraCollectionList;
+			sourceTree = "<group>";
+		};
+		45C9DDAC2721739600D795FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45C9DDD027217B3000D795FF /* DoraCollectionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		45C9DDAD2721739600D795FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45C9DDCB2721785D00D795FF /* DoraCollectionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45C9DDAE2721739600D795FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45C9DDB7272173E100D795FF /* DoraCollectionListViewController.swift */,
+				45C9DDDD2721D0DC00D795FF /* TableCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45C9DDAF272173A000D795FF /* DoraDetails */ = {
+			isa = PBXGroup;
+			children = (
+				45C9DDB0272173A000D795FF /* ViewModel */,
+				45C9DDB1272173A000D795FF /* Model */,
+				45C9DDB2272173A000D795FF /* View */,
+			);
+			path = DoraDetails;
+			sourceTree = "<group>";
+		};
+		45C9DDB0272173A000D795FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		45C9DDB1272173A000D795FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45C9DDB2272173A000D795FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45C9DDBC272173FB00D795FF /* DoraDetailsViewController.swift */,
+				45C9DDE52721D81F00D795FF /* TableCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45C9DDB3272173A800D795FF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				45C9DDC12721746900D795FF /* Constant.swift */,
+				45C9DDC6272177BE00D795FF /* APISniper.swift */,
+				45C9DDF72721DCB100D795FF /* UITableView+Extension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		45C9DDDD2721D0DC00D795FF /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				45C9DDDE2721D10300D795FF /* DoraCollectionTableViewCell.swift */,
+				45C9DDDF2721D10300D795FF /* DoraCollectionTableViewCell.xib */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		45C9DDE52721D81F00D795FF /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				45C9DDE62721D83800D795FF /* DoraImageTableViewCell.swift */,
+				45C9DDE72721D83800D795FF /* DoraImageTableViewCell.xib */,
+				45C9DDF02721D85000D795FF /* DoraDetailsTableViewCell.swift */,
+				45C9DDF12721D85000D795FF /* DoraDetailsTableViewCell.xib */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45C9DD972721637800D795FF /* Build configuration list for PBXNativeTarget "DoraCollection" */;
 			buildPhases = (
+				5012A8C700332BD28875DD36 /* [CP] Check Pods Manifest.lock */,
 				45C9DD692721637200D795FF /* Sources */,
 				45C9DD6A2721637200D795FF /* Frameworks */,
 				45C9DD6B2721637200D795FF /* Resources */,
+				4AC2F2EC8919E675D24B5B64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45C9DD9A2721637800D795FF /* Build configuration list for PBXNativeTarget "DoraCollectionTests" */;
 			buildPhases = (
+				7040618048BF03A73252FB3B /* [CP] Check Pods Manifest.lock */,
 				45C9DD7F2721637800D795FF /* Sources */,
 				45C9DD802721637800D795FF /* Frameworks */,
 				45C9DD812721637800D795FF /* Resources */,
@@ -170,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45C9DD9D2721637800D795FF /* Build configuration list for PBXNativeTarget "DoraCollectionUITests" */;
 			buildPhases = (
+				153A420720096B1B6953A82C /* [CP] Check Pods Manifest.lock */,
 				45C9DD8A2721637800D795FF /* Sources */,
 				45C9DD8B2721637800D795FF /* Frameworks */,
 				45C9DD8C2721637800D795FF /* Resources */,
+				33B549AA5E48D01844B3B33F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +401,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C9DD7D2721637700D795FF /* LaunchScreen.storyboard in Resources */,
+				45C9DDE12721D10300D795FF /* DoraCollectionTableViewCell.xib in Resources */,
+				45C9DDF32721D85000D795FF /* DoraDetailsTableViewCell.xib in Resources */,
 				45C9DD7A2721637700D795FF /* Assets.xcassets in Resources */,
 				45C9DD782721637200D795FF /* Main.storyboard in Resources */,
+				45C9DDE92721D83800D795FF /* DoraImageTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +425,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		153A420720096B1B6953A82C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoraCollection-DoraCollectionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33B549AA5E48D01844B3B33F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoraCollection-DoraCollectionUITests/Pods-DoraCollection-DoraCollectionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoraCollection-DoraCollectionUITests/Pods-DoraCollection-DoraCollectionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoraCollection-DoraCollectionUITests/Pods-DoraCollection-DoraCollectionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC2F2EC8919E675D24B5B64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoraCollection/Pods-DoraCollection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoraCollection/Pods-DoraCollection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoraCollection/Pods-DoraCollection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5012A8C700332BD28875DD36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoraCollection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7040618048BF03A73252FB3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoraCollectionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45C9DD692721637200D795FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45C9DD752721637200D795FF /* ViewController.swift in Sources */,
 				45C9DD712721637200D795FF /* AppDelegate.swift in Sources */,
+				45C9DDE02721D10300D795FF /* DoraCollectionTableViewCell.swift in Sources */,
+				45C9DDBD272173FB00D795FF /* DoraDetailsViewController.swift in Sources */,
+				45C9DDC22721746900D795FF /* Constant.swift in Sources */,
 				45C9DD732721637200D795FF /* SceneDelegate.swift in Sources */,
+				45C9DDB8272173E100D795FF /* DoraCollectionListViewController.swift in Sources */,
+				45C9DDCC2721785D00D795FF /* DoraCollectionModel.swift in Sources */,
+				45C9DDE82721D83800D795FF /* DoraImageTableViewCell.swift in Sources */,
+				45C9DDD127217B3000D795FF /* DoraCollectionViewModel.swift in Sources */,
+				45C9DDC7272177BE00D795FF /* APISniper.swift in Sources */,
+				45C9DDF22721D85000D795FF /* DoraDetailsTableViewCell.swift in Sources */,
+				45C9DDF82721DCB100D795FF /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +717,7 @@
 		};
 		45C9DD982721637800D795FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E54665F3D7145ECC9C10B2 /* Pods-DoraCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +736,7 @@
 		};
 		45C9DD992721637800D795FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DADF9C6E321A50D4EEE62B /* Pods-DoraCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +755,7 @@
 		};
 		45C9DD9B2721637800D795FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD32DDA328B1EA78578A45B /* Pods-DoraCollectionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +777,7 @@
 		};
 		45C9DD9C2721637800D795FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E41E524C079175196ED770F /* Pods-DoraCollectionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +799,7 @@
 		};
 		45C9DD9E2721637800D795FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6D11F89711D9517E383CEB /* Pods-DoraCollection-DoraCollectionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +819,7 @@
 		};
 		45C9DD9F2721637800D795FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7990A0EC80A70E852469F35D /* Pods-DoraCollection-DoraCollectionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
