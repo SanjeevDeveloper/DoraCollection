@@ -16,21 +16,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3UO-0k-Ldl">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3UO-0k-Ldl">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="iB7-bp-A20"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="KU9-BY-tYe"/>
+                                </connections>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No record found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJW-61-VSq">
+                                <rect key="frame" x="130.5" y="465" width="153" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="3UO-0k-Ldl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GTi-gI-IsH"/>
+                            <constraint firstItem="eJW-61-VSq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="GUM-6A-GBh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3UO-0k-Ldl" secondAttribute="bottom" id="N5b-at-wq5"/>
                             <constraint firstItem="3UO-0k-Ldl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jIq-wS-Ccc"/>
+                            <constraint firstItem="eJW-61-VSq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kPb-7k-Xl6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3UO-0k-Ldl" secondAttribute="trailing" id="wbN-0g-BIh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rSE-1p-MZg"/>
+                    <connections>
+                        <outlet property="doraCollectionTableView" destination="3UO-0k-Ldl" id="iUF-m3-maL"/>
+                        <outlet property="noRecordLabel" destination="eJW-61-VSq" id="eol-pv-DvR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,9 +78,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fog-zZ-Mxj">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fog-zZ-Mxj">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="PVs-Vp-GaF" id="MyW-kR-oSs"/>
+                                    <outlet property="delegate" destination="PVs-Vp-GaF" id="Y8Q-7o-VvK"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="34h-Rm-87h"/>
@@ -77,6 +97,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Alk-hk-dlK"/>
+                    <connections>
+                        <outlet property="doraDetailsTableView" destination="Fog-zZ-Mxj" id="xAM-b3-gUS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EzW-rh-05e" sceneMemberID="firstResponder"/>
             </objects>

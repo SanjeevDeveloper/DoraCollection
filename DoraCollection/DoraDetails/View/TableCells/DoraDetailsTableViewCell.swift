@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DoraDetailsTableViewCell: UITableViewCell {
+class DoraDetailsTableViewCell: UITableViewCell, Reusable {
 
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var typeLabel: UILabel!
@@ -17,6 +17,9 @@ class DoraDetailsTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
+    static var nib: UINib? {
+        return UINib(nibName: String(describing: DoraDetailsTableViewCell.self), bundle: nil)
+      }
     
     // MARK: Set data in detail cell
     func configureDoraDetailCell(result: Result) {

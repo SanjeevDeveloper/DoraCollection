@@ -12,6 +12,8 @@ struct Constant {
     static let doraDetailHead = "Dora Details"
     static let loading = "Loading..."
     static let noRecord = "No record found."
+    static let noInternetConnection = "No internet connection."
+    static let errorMessage = "Something went wrong, try again later."
 }
 
 struct WebAPI {

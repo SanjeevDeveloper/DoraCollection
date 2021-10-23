@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		316151936915A0BDB543E675 /* Pods_DoraCollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEBCF29A562F374C031986C /* Pods_DoraCollectionTests.framework */; };
+		451A6525272436B5004CD647 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A6524272436B5004CD647 /* Reachability.swift */; };
+		459D31122723162300799470 /* DoraDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459D31112723162300799470 /* DoraDetailsModel.swift */; };
+		459D31172723166D00799470 /* DoraDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459D31162723166D00799470 /* DoraDetailsViewModel.swift */; };
+		459D31242723E65B00799470 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459D31232723E65B00799470 /* UIImageView+Extension.swift */; };
 		45C9DD712721637200D795FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DD702721637200D795FF /* AppDelegate.swift */; };
 		45C9DD732721637200D795FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9DD722721637200D795FF /* SceneDelegate.swift */; };
 		45C9DD782721637200D795FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C9DD762721637200D795FF /* Main.storyboard */; };
@@ -53,6 +57,11 @@
 		1E41E524C079175196ED770F /* Pods-DoraCollectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraCollectionTests.release.xcconfig"; path = "Target Support Files/Pods-DoraCollectionTests/Pods-DoraCollectionTests.release.xcconfig"; sourceTree = "<group>"; };
 		27E54665F3D7145ECC9C10B2 /* Pods-DoraCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoraCollection.debug.xcconfig"; path = "Target Support Files/Pods-DoraCollection/Pods-DoraCollection.debug.xcconfig"; sourceTree = "<group>"; };
 		2EEBCF29A562F374C031986C /* Pods_DoraCollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoraCollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451A6524272436B5004CD647 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		451A6529272437ED004CD647 /* DoraCollection-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoraCollection-Bridge-Header.h"; sourceTree = "<group>"; };
+		459D31112723162300799470 /* DoraDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoraDetailsModel.swift; sourceTree = "<group>"; };
+		459D31162723166D00799470 /* DoraDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoraDetailsViewModel.swift; sourceTree = "<group>"; };
+		459D31232723E65B00799470 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		45C9DD6D2721637200D795FF /* DoraCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoraCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C9DD702721637200D795FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C9DD722721637200D795FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -242,6 +251,7 @@
 		45C9DDB0272173A000D795FF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				459D31162723166D00799470 /* DoraDetailsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -249,6 +259,7 @@
 		45C9DDB1272173A000D795FF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				459D31112723162300799470 /* DoraDetailsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -268,6 +279,9 @@
 				45C9DDC12721746900D795FF /* Constant.swift */,
 				45C9DDC6272177BE00D795FF /* APISniper.swift */,
 				45C9DDF72721DCB100D795FF /* UITableView+Extension.swift */,
+				459D31232723E65B00799470 /* UIImageView+Extension.swift */,
+				451A6524272436B5004CD647 /* Reachability.swift */,
+				451A6529272437ED004CD647 /* DoraCollection-Bridge-Header.h */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -533,6 +547,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459D31242723E65B00799470 /* UIImageView+Extension.swift in Sources */,
 				45C9DD712721637200D795FF /* AppDelegate.swift in Sources */,
 				45C9DDE02721D10300D795FF /* DoraCollectionTableViewCell.swift in Sources */,
 				45C9DDBD272173FB00D795FF /* DoraDetailsViewController.swift in Sources */,
@@ -540,10 +555,13 @@
 				45C9DD732721637200D795FF /* SceneDelegate.swift in Sources */,
 				45C9DDB8272173E100D795FF /* DoraCollectionListViewController.swift in Sources */,
 				45C9DDCC2721785D00D795FF /* DoraCollectionModel.swift in Sources */,
+				459D31172723166D00799470 /* DoraDetailsViewModel.swift in Sources */,
 				45C9DDE82721D83800D795FF /* DoraImageTableViewCell.swift in Sources */,
+				459D31122723162300799470 /* DoraDetailsModel.swift in Sources */,
 				45C9DDD127217B3000D795FF /* DoraCollectionViewModel.swift in Sources */,
 				45C9DDC7272177BE00D795FF /* APISniper.swift in Sources */,
 				45C9DDF22721D85000D795FF /* DoraDetailsTableViewCell.swift in Sources */,
+				451A6525272436B5004CD647 /* Reachability.swift in Sources */,
 				45C9DDF82721DCB100D795FF /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -729,6 +747,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanjeev.DoraCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DoraCollection/Utility/DoraCollection-Bridge-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -748,6 +767,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanjeev.DoraCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DoraCollection/Utility/DoraCollection-Bridge-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Welcome
-struct DoraCollectionModel: Codable {
+struct DoraCollectionModel: Decodable {
     let requestHash: String
     let requestCached: Bool
     let requestCacheExpiry: Int
@@ -25,7 +25,7 @@ struct DoraCollectionModel: Codable {
 }
 
 // MARK: - Result
-struct Result: Codable {
+struct Result: Decodable {
     let malID: Int
     let url: String
     let imageURL: String
@@ -35,8 +35,6 @@ struct Result: Codable {
     let type: TypeEnum
     let episodes: Int
     let score: Double
-    let startDate: Date
-    let endDate: Date?
     let members: Int
     let rated: Rated
 
@@ -45,18 +43,16 @@ struct Result: Codable {
         case url
         case imageURL = "image_url"
         case title, airing, synopsis, type, episodes, score
-        case startDate = "start_date"
-        case endDate = "end_date"
         case members, rated
     }
 }
 
-enum Rated: String, Codable {
+enum Rated: String, Decodable {
     case g = "G"
     case pg = "PG"
 }
 
-enum TypeEnum: String, Codable {
+enum TypeEnum: String, Decodable {
     case movie = "Movie"
     case special = "Special"
     case tv = "TV"
